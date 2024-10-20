@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "rmexplorer"
+license = {file = "COPYING"}
+authors = [{name = "Nicolas Bruot"}]
+dynamic = ["version", "description"]
+dependencies = [
+    "PyQt5",
+    "pycryptodomex",
+    "paramiko",
+    "requests",
+    "password-strength",
+    "Wand",
+]
+
+[project.scripts]
+rmexplorer = "rmexplorer.__main__:main"
+
+[project.urls]
+Home = "https://github.com/sirrobin/foobar"

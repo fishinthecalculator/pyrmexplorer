@@ -38,7 +38,7 @@ from PyQt5.QtWidgets import (qApp, QWidget, QMainWindow, QMenu, QAction,
                              QAbstractItemView)
 
 import rmexplorer.constants as constants
-from rmexplorer._version import __version__
+from rmexplorer import __version__
 from rmexplorer.saveoptsdialog import SaveOptsDialog
 from rmexplorer.settingsdialog import SettingsDialog
 from rmexplorer.downloadfilesworker import DownloadFilesWorker
